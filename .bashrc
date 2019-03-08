@@ -100,7 +100,7 @@ fi
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export ANDROID_HOME=/opt/android-sdk
-alias cengvpn='ssh -D 8085 -f -C -q -N -p 8085 e2099216@external.ceng.metu.edu.tr'
+alias cengvpn='sshuttle -r e2099216@external.ceng.metu.edu.tr:8085 0.0.0.0/0 --dns'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
