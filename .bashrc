@@ -175,3 +175,6 @@ fi
 alias gcc='gcc-5 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Weffc++'
 alias hotspot='sudo create_ap wlp3s0 enp4s0 buyuzdenhergeceben c127c127 &'
 alias flux='xflux -l 38 -g 42'
+eval `ssh-agent -s` &>/dev/null
+ssh-add ~/.ssh/id_rsa &>/dev/null
+
