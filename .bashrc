@@ -178,3 +178,8 @@ alias flux='xflux -l 38 -g 42'
 eval `ssh-agent -s` &>/dev/null
 ssh-add ~/.ssh/id_rsa &>/dev/null
 
+
+darker() {
+    redshift -P -O $1
+}
+
