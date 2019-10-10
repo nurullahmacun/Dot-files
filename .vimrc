@@ -65,3 +65,5 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 set cursorline                                                                                                                                                           
 set cursorcolumn
+set ignorecase
+set smartcase
