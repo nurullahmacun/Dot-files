@@ -74,7 +74,7 @@ fi
 # new comment ends #
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -alFSh'
 alias la='ls -A'
 alias l='ls -CF'
 
